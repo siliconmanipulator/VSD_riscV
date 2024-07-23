@@ -1,7 +1,7 @@
 
 # NASSCOM-VSD_riscV_SoC Design
 
-## Day- 1
+## Day 1- Getting Started With Open Source EDA Tools
 Task: To calculate the Flop ratio after the systhesis of RTL of picorv32a.
 
 
