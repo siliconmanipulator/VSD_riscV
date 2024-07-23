@@ -131,11 +131,6 @@ To remove peaks change cap load to 2 femto Farrad
 
 
 
-
-# Project Title
-
-A brief description of what this project does and who it's for
-
 ## Day 4
 
 ![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_4/1.png)
@@ -161,3 +156,22 @@ A brief description of what this project does and who it's for
 ![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_4/11.png)
 
 ![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_4/12.png)
+
+
+
+
+## Day 5
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_5/1.png)
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_5/2.png)
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_5/3.png)
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_5/4.png)
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_5/5.png)
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_5/6.png)
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_5/7.png)
