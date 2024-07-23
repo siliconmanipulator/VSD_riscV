@@ -127,3 +127,37 @@ To remove peaks change cap load to 2 femto Farrad
 #### Cell Fall Delay
 ![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_3/10%20cell%20fall%20delay.png)
 
+
+
+
+
+
+# Project Title
+
+A brief description of what this project does and who it's for
+
+## Day 4
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_4/1.png)
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_4/2.png)
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_4/3.png)
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_4/4.png)
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_4/5.png)
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_4/6.png)
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_4/7.png)
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_4/8.png)
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_4/9.png)
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_4/10.png)
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_4/11.png)
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_4/12.png)
