@@ -65,3 +65,65 @@ Run
 magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
 ```
 ![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_2/5%20Placement%20in%20VLSI%20Design.png)
+
+
+
+
+## Day 3- Design library cell using Magic Layout and ngspice characterization
+
+#### Cloning vsdstdcelldesign repository
+Run 
+```bash
+git clone https://github.com/nickson-jose/vsdstdcelldesign.git
+``` 
+in openlane folder
+
+Copy the sky130A.tech from magic tool folder to the newly clones directory (vsdstdcelldesign).
+
+Now let's open inverter Layout in Magic
+
+Run `magic -T sky130A.tech sky130_inv.mag &`
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_3/1.png)
+
+#### Extracting SPICE list
+Run the following command in Magic terminal (tkcon)
+```bash
+extract all
+ext2spice cthresh 0 rthresh 0
+ext2spice
+```
+#### Opening the SPICE file and editing
+
+Run `vim sky130_inv.spice`
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_3/2.png)
+
+#### Opening the SPICE file
+Run `ngspice sky130_inv.spice` 
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_3/3.png)
+
+#### Simulate SPICE in ngspice
+
+Run `plot y vs time a`
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_3/4%20b4%20changing%20cap%20cap%20.2f.png)
+
+Some peaks are coming in output.\
+To remove peaks change cap load to 2 femto Farrad
+
+#### Plot after changing cap load
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_3/5%20changing%20cap%202fF.png)
+
+#### Rise Time
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_3/7.%2050_%20of%203.3.png)
+
+#### Fall Time
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_3/8.%20fall%20time%20calc.png)
+
+#### Propagation Delay (Cell Rise Delay)
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_3/9%20cell%20rise%20delay%20tpd%2050_%20change.png)
+
+#### Cell Fall Delay
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_3/10%20cell%20fall%20delay.png)
+
