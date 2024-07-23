@@ -24,8 +24,6 @@ After the preparation, we can see a new directory with today's date has created 
 
 ![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_1/3%20merging%20of%20tech%20lef%20and%20cell%20lef.png)
 
-#### Run Synthesis of the RTL
-
 
 
 
