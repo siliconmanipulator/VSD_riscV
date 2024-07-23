@@ -1,7 +1,7 @@
 
 # NASSCOM-VSD_riscV_SoC Design
 
-## Day 1- Getting Started With Open Source EDA Tools
+## Day- 1
 Task: To calculate the Flop ratio after the systhesis of RTL of picorv32a.
 
 
@@ -24,6 +24,13 @@ After the preparation, we can see a new directory with today's date has created 
 
 ![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_1/3%20merging%20of%20tech%20lef%20and%20cell%20lef.png)
 
+#### Run Synthesis of the RTL
+Run `run_synthesis`
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_1/4%20flop%20ratio.png)
+
+` Flop % = 100*(no. of D-flip-flops/total no. of cells)
+= 161300/14876 = 10.842969% `
 
 
 
@@ -58,9 +65,3 @@ Run
 magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
 ```
 ![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_2/5%20Placement%20in%20VLSI%20Design.png)
-Run `run_synthesis`
-
-![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_1/4%20flop%20ratio.png)
-
-` Flop % = 100*(no. of D-flip-flops/total no. of cells)
-= 161300/14876 = 10.842969% `
