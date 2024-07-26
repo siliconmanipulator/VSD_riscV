@@ -127,8 +127,15 @@ To remove peaks change cap load to 2 femto Farrad
 #### Cell Fall Delay
 ![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_3/10%20cell%20fall%20delay.png)
 
+####DRC
 
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_3/Screenshot%202024-07-21%20205001.png)
 
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_3/Screenshot%202024-07-21%20205201.png)
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_3/Screenshot%202024-07-21%20205220.png)
+
+![](https://github.com/siliconmanipulator/VSD_riscV/blob/main/day_3/Screenshot%202024-07-21%20211053.png)
 
 
 ## Day 4
